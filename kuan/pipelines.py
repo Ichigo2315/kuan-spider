@@ -9,8 +9,8 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.firefox.service import Service
 from selenium.webdriver.firefox.firefox_profile import FirefoxProfile
 
-driver_path = r"F:\\geckodriver-v0.31.0-win64\\geckodriver.exe"
-dl_dir = 'C:\\Users\\Namophobia\\Downloads'
+driver_path = r"F:\\geckodriver-v0.31.0-win64\\geckodriver.exe" # 需更改为本地geckodriver的路径
+dl_dir = 'C:\\Users\\$username\\Downloads' # 输入您的用户名
 service = Service(executable_path = driver_path)
 options = webdriver.FirefoxOptions()
 pf = webdriver.FirefoxProfile()
